@@ -1,15 +1,20 @@
 {
+  "name": "csmassignment1",
+  "private": true,
+  "homepage": "https://stvnwastaken.github.io/csmassignment1/",
   "version": "0.0.0",
   "scripts": {
     "dev": "cross-env TAILWIND_MODE=watch vite",
     "build": "cross-env TAILWIND_MODE=build vite build",
-    "serve": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.1.1",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.5",
     "vitawind": "^2.2.4",
-    "vite": "^2.4.4",
-    "cross-env": "^7.0.3"
+    "vite": "^2.4.4"
   }
 }
