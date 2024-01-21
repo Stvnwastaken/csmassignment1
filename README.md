@@ -1,21 +1,20 @@
-# template-vite-js-tailwind-v3
+# CSM Assignment #1
 
-- **template of:** vite + vanilaJS
-- **tailwindcss:** v3.x
+Mobile Web App Development
 
-## Started
+## Get Started
 
 ```bash
-yarn
+pnpm install
 # or `npm install`
 ```
 
 ---
 
-## Develop
+## Start Dev Server
 
 ```bash
-yarn dev
+pnpm run dev
 # or `npm run dev`
 ```
 
@@ -24,12 +23,28 @@ yarn dev
 ## Build
 
 ```bash
-yarn build
+pnpm run build
 # or `npm run build`
 ```
 
 ---
 
-<p align="center">
-<img src="./powered-by-vitawind-bright.png">
-</p>
+## Preview Production Build
+
+```bash
+pnpm run preview
+# or `npm run preview`
+```
+
+---
+
+## Deploy to GitHub Pages
+
+```bash
+pnpm run deploy
+# or `npm run deploy`
+```
+
+---
+
+Scaffolded with [Vitawind](https://github.com/huibizhang/vitawind)
