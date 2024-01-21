@@ -47,4 +47,4 @@ pnpm run deploy
 
 ---
 
-Scaffolded with [Vitawind](https://github.com/huibizhang/vitawind)
+Scaffolded with [template-vite-js-tailwind-v3](https://github.com/huibizhang/template-vite-vanilla-tailwind-v3)
