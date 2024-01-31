@@ -1,7 +1,7 @@
 {
-  "name": "csmassignment1a",
+  "name": "csmassignment1",
   "private": true,
-  "homepage": "https://stvnwastaken.github.io/csmassignment1a/",
+  "homepage": "https://stvnwastaken.github.io/csmassignment1/",
   "version": "0.0.0",
   "scripts": {
     "dev": "cross-env TAILWIND_MODE=watch vite",
@@ -12,6 +12,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.4.1",
     "vite": "^5.0.12"
   },
   "dependencies": {

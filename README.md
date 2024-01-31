@@ -1,4 +1,4 @@
-# CSM Assignment #1a
+# CSM Assignment #1
 
 Mobile Web App Development
 
