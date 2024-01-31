@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
-    <title>Homework 1</title>
-    <script type="module" crossorigin src="/csmassignment1/assets/index-BIfZ239y.js"></script>
-    <link rel="stylesheet" crossorigin href="/csmassignment1/assets/index-dhgAg2bR.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Homework 1a</title>
+    <script type="module" crossorigin src="/csmassignment1a/assets/index-WNOe5i2z.js"></script>
+    <link rel="stylesheet" crossorigin href="/csmassignment1a/assets/index-EQXnsOwO.css">
   </head>
   <body class="bg-background font-poppins">
     <div id="app" class="flex justify-center items-center flex-col text-center">
       
-      <h1 class="text-text text-4xl m-8">Mobile Web App Development</h1>
+      <h1 class="text-4xl m-8" id="dynamic-heading">Mobile Web App Development</h1>
       
-      <section class="m-4 p-3 bg-primary rounded-md text-background">
+      <button id="dynamic-button" class="text-text bg-secondary p-4 rounded-md">Click me!</button>
+      
+      <div class="m-4 p-3 bg-primary rounded-md text-background">
       <div class="flex flex-row items-center">
-      <img class="rounded-lg m-1" src="/csmassignment1/assets/picture-NvwGRSMk.jpg" alt="Picture">
+      <img class="rounded-lg m-1" id="my-picture" src="/csmassignment1a/assets/picture-NvwGRSMk.jpg" alt="Picture of Steven Sah">
       <p class="m-4">My name is Steven Sah, I am a sophomore at Aragon High School, and I have been doing web development for around 2 years now (on and off). This is my second course with CSM, with my first one being <b>Introduction to Databases</b>. I have self learned the majority of the concepts and material in my coding journey, mostly from Youtube and a bit of udemy.</p>
       </div>
       <p class="m-4">I am attending this class because although I enjoy doing web development, it is sometimes hard to get myself to start coding and learning the technologies I want to learn. This class allows me to regain my motivation and focus, as well as force me to get back into coding.</p>
-      </section>
+      </div>
 
       <section class="bg-secondary p-5 rounded-md drop-shadow-lg m-5">
       <h2 class="text-text text-3xl m-4">Technologies for this class</h2>
@@ -40,7 +43,6 @@
         <li><a rel="noopener noreferrer" target="_blank" href="https://www.w3schools.com" class="text-xl underline underline-offset-2 m-2 text-background">W3CSchools</a> - this website, although old and a bit outdated, is a great way to learn HTML, CSS, JS basics and look at examples.</li>
       </ul>
       </section>
-
     </div>
   </body>
 </html>
